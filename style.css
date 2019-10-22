@@ -49,6 +49,7 @@ body{
   margin-left: 10%;
   padding: 0;
   width: 1100px;  
+  background-color: #752626;
 }
 ul{
   list-style: none;
@@ -64,9 +65,9 @@ li:nth-child(n+2){
 }
 .icon_phone{
   width: 65px;
-  height: 63px;
+  height: 65px;
   background-color: #ffffff;
-  border-radius: 31px;
+  border-radius: 50%;
   border:2px solid #1275b9;
   margin-left: 77px;
 }
@@ -80,20 +81,20 @@ li:nth-child(n+2){
 }
 
 .phone{
-  margin: 16px 21px;
+  margin: 18px 21px;
 }
 .settings{
   margin:  19px 19px;
 }
 .dashboard{
-  margin: 19px 21px 19px 19px;
+  margin: 20px 19px 20px 19px;
 }
 .icon{
   width: 65px;
-  height: 63px;
+  height: 65px;
   background-color: #1275b9;
-  border-radius: 31px;
-  border:1px solid #1275b9;
+  border-radius: 50%;
+  border: 2px solid #1275b9;
   margin-left: 77px;
 }
 li{
