@@ -1,0 +1,153 @@
+body {
+  background: #ffffff;
+  text-decoration: none;
+  width: 100%;
+  height: 100%;
+}
+
+body,
+form,
+div,
+p,
+a,
+img,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+table,
+table tr,
+table td {
+  border: none;
+  color: #000000;
+  font-family:Arial;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: normal;
+  margin: 0;
+  padding: 0;
+}
+
+input,
+textarea,
+select {
+  outline: none;
+  font-family:Arial;
+  font-size: 14px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+input::-moz-focus-inner {
+  border: 0;
+  padding: 0;
+}
+body{
+  margin: 20px;
+  width: 97%;
+}
+header {
+  background-color: #4a4f56;
+  text-align: center;
+  height: 135px;
+}
+header h1{
+  font-size:36px;
+  color: #eb7e7f;
+  padding-top:35px ;
+  font-weight: 600;
+  font-family:'Trebuchet MS', Arial, sans-serif;
+  line-height: 48px;
+}
+main{
+  background-color: #3b3f45;
+  height: 560px;  
+}
+ li:nth-child(even){
+  background-color: #7a7593;
+}
+ul{ 
+  padding-left: 0;
+  margin: auto;
+  padding-top: 40px;
+}
+li{
+  background-color: #88839e;
+  list-style: none;
+}
+li:hover{
+  background-color: #625E77;
+  border:5px solid white;
+  border-left: 0;
+  border-right: 0;
+  } 
+label{
+    display: block;
+}
+[type="checkbox"]:checked + span  {
+  text-decoration: line-through;
+  color:#A3A0AD ;
+}
+[type="checkbox"]:checked +span +.small { 
+  text-decoration: line-through;
+  color:#A3A0AD ;
+}
+li:active { 
+   background-color:#DD866E; 
+}
+a{
+  text-decoration: none;
+  color: #eb7e7f;
+  font-size:20px;
+}
+a:hover{
+  color:hsl(359, 74%, 53%);
+  font-size: 25px;
+}
+
+*{transition: all .1s ease-in;}
+
+.big{
+  font-size: 24px;  
+  line-height: 48px;  
+}
+
+div{ 
+  margin: auto;
+  padding-top: 40px;
+}
+button{  
+  width:100%;
+  height: 60px;
+  background-color: #4A4F56;
+  border: 0;
+  color:#DD866E;
+  font-size: 22px;
+  font-family:'Trebuchet MS', Arial, sans-serif;
+}
+button:hover{
+  font-size: 25px; 
+  border: 2px solid white;
+}
+span{
+  color: white;
+  font-family:'Trebuchet MS', Arial, sans-serif;
+}
+.small{
+  color: #B7C3D4;
+}
+.all{
+  width:50%;
+}
+button::after{
+  content: ":)";
+}
+.small::before{
+  content: "(";
+}
+.small::after{
+  content: ")";
+}
